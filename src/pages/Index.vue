@@ -15,14 +15,21 @@
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
     </p> -->
 
+    <EpisodesFeed />
+
   </Layout>
 </template>
 
 <script>
+import EpisodesFeed from '@/components/EpisodesFeed.vue'
+
 export default {
   metaInfo: {
     title: ''
-  }
+  },
+  components: {
+    EpisodesFeed,
+  } 
 }
 </script>
 
