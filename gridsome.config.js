@@ -1,5 +1,6 @@
 module.exports = {
   siteName: 'Two Devs Online',
+  siteUrl: 'https://twodevs.online',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
